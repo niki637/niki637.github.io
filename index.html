@@ -1,119 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variety of Teas</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: #f5f5f5;
-            padding: 0 20px;
-        }
-        header {
-            background: #6b4226;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #8c6239;
-            padding: 10px 0;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            overflow: hidden;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-        .card {
-            background: #f9f9f9;
-            margin: 10px 0;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            padding: 10px 0;
-            background: #333;
-            color: #fff;
-        }
-        footer p {
-            margin: 0;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore Ancient Egypt</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Explore the World of Teas</h1>
-    </header>
 
-    <nav>
-        <a href="#black">Black Tea</a>
-        <a href="#green">Green Tea</a>
-        <a href="#herbal">Herbal Tea</a>
-        <a href="#oolong">Oolong Tea</a>
-    </nav>
-
-    <div class="container">
-        <section id="black">
-            <h2>Black Tea</h2>
-            <div class="card">
-                <p>Black tea is known for its robust flavor and rich color. Popular varieties include Assam, Darjeeling, and Earl Grey. It is fully oxidized and contains more caffeine than other types of tea.</p>
-            </div>
-        </section>
-
-        <section id="green">
-            <h2>Green Tea</h2>
-            <div class="card">
-                <p>Green tea is unoxidized, which gives it a lighter flavor and higher antioxidant content. It is often associated with health benefits. Famous types include Matcha, Sencha, and Longjing.</p>
-            </div>
-        </section>
-
-        <section id="herbal">
-            <h2>Herbal Tea</h2>
-            <div class="card">
-                <p>Herbal teas are made from a variety of plants, fruits, and flowers. They are naturally caffeine-free and include options like chamomile, peppermint, and hibiscus.</p>
-            </div>
-        </section>
-
-        <section id="oolong">
-            <h2>Oolong Tea</h2>
-            <div class="card">
-                <p>Oolong tea is partially oxidized, placing it between black and green tea in flavor and color. It is known for its smooth and fragrant profile, with varieties like Tieguanyin and Da Hong Pao.</p>
-            </div>
-        </section>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Explore Ancient Egypt</h1>
+      <p>Land of Pharaohs, Pyramids, and the Nile</p>
+      <a href="#history" class="btn">Discover More</a>
     </div>
+  </header>
 
-    <footer>
-        <p>&copy; 2025 Tea Explorer. All Rights Reserved.</p>
-    </footer>
+  <section id="history" class="section">
+    <h2>The History</h2>
+    <p>Ancient Egypt was a civilization of ancient North Africa, concentrated along the lower reaches of the Nile River. Known for its pharaohs, hieroglyphs, and monumental architecture like the pyramids and temples.</p>
+  </section>
+
+  <section id="gods" class="section dark">
+    <h2>Gods & Mythology</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Ra</h3>
+        <p>Sun god and the king of all gods. Often depicted with a falcon head and sun disk.</p>
+      </div>
+      <div class="card">
+        <h3>Anubis</h3>
+        <p>God of mummification and the afterlife. Recognized by his jackal head.</p>
+      </div>
+      <div class="card">
+        <h3>Isis</h3>
+        <p>Goddess of magic and motherhood, revered across the ancient world.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="architecture" class="section">
+    <h2>Majestic Architecture</h2>
+    <p>From the Great Pyramids of Giza to the temples of Karnak and Abu Simbel, Egyptian architecture reflects grandeur, precision, and divine alignment.</p>
+  </section>
+
+  <footer>
+    <p>🌍 Made with ❤️ for the wonders of Egypt</p>
+  </footer>
+
 </body>
 </html>
